@@ -27,7 +27,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Image, name: image, widget: image}
           - {label: "Intro", name: intro, widget: object, fields: [
               {label: "Heading", name: "heading", widget: string}]}
-          -{label: "Areas of Law", name: areasoflaw, widget: object, fields:[
+          - {label: "Areas of Law", name: areasoflaw, widget: object, fields:[
               {label: "Title", name: "title", widget: string},
               {label: "Tile", name: "image", widget: image},
               {label: "Link", name: "link", widget: string}

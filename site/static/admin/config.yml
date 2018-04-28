@@ -19,7 +19,6 @@ collections: # A list of collections the CMS should be able to edit
     lable: "Areas of Law"
     folder: "site/content"
     label: "Areas of Law"
-    name: "expertise"
     fields:
       - {label: Title, name: title, widget: string}
       - {label: Intro, name: intro, widget: markdown}

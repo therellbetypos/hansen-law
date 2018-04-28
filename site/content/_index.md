@@ -5,9 +5,7 @@ image: /img/home-hero.jpg
 intro:
   heading: "Areas of Law"
 areasoflaw:
-    - image: img/criminal-law-tile.jpg
-      title: "Criminal Law"
-      link: /criminal-law
+
     - image: img/family-law-tile.jpg
       title: "Family Law"
       link: /family-law

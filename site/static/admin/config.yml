@@ -20,6 +20,7 @@ collections: # A list of collections the CMS should be able to edit
     folder: "site/content"
     create: true
     fields:
+      - {label: type, name: type, widget: string, default: 'area_of_law'}
       - {label: Title, name: title, widget: string}
       - {label: Tile, name: tile, widget: image}
       - {label: Hero, name: image, widget: image}

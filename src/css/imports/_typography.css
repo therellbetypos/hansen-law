@@ -25,6 +25,12 @@ p {
   max-width: 32rem;
 }
 
+h1, h2, h3{
+  font-family: var(--heading-font-family);
+  font-weight: var(--bold-font-weight);
+}
+
+
 strong {
   font-weight: var(--bold-font-weight);
 }

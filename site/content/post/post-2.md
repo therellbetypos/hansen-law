@@ -4,7 +4,7 @@ date: 2018-04-12T15:04:10.000Z
 description: >-
   multos aute export cillum malis export fore velit veniam sunt tempor tempor
   illum aute velit illum tamen enim aute dolore sunt culpa esse tamen cillum
-image: /img/blog-1.jpg
+image: /img/building-practitioner-tile.jpg
 ---
 
 Hic litteris o cupidatat in commodo irure aute consequat quem. Ea tempor irure

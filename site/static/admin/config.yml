@@ -15,12 +15,14 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Intro Blurb", name: "description", widget: "text"}
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "experise"
-    lable: "Areas of Law"
+  - name: "expertise"
+    label: "Area of Law"
     folder: "site/content"
-    label: "Areas of Law"
+    create: true
     fields:
       - {label: Title, name: title, widget: string}
+      - {label: Tile, name: tile, widget: image}
+      - {label: Hero, name: image, widget: image}
       - {label: Intro, name: intro, widget: markdown}
       - {label: Body, name: body, widget: markdown}
   - name: "pages"

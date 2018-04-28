@@ -15,6 +15,15 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Intro Blurb", name: "description", widget: "text"}
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: "experise"
+    lable: "Areas of Law"
+    folder: "site/content"
+    label: "Areas of Law"
+    name: "expertise"
+    fields:
+      - {label: Title, name: title, widget: string}
+      - {label: Intro, name: intro, widget: markdown}
+      - {label: Body, name: body, widget: markdown}
   - name: "pages"
     label: "Pages"
     files:
@@ -32,10 +41,3 @@ collections: # A list of collections the CMS should be able to edit
               {label: "Tile", name: "image", widget: image},
               {label: "Link", name: "link", widget: string}
             ]}
-      - folder: "site/content"
-        label: "Areas of Law"
-        name: "expertise"
-        fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Intro, name: intro, widget: markdown}
-          - {label: Body, name: body, widget: markdown}

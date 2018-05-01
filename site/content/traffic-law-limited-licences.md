@@ -1,4 +1,5 @@
 ---
+type: area_of_law
 title: Traffic Law & Limited Licences
 tile: /img/traffic-law-tile.jpg
 image: /img/traffic-law-hero.jpg

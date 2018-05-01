@@ -1,14 +1,16 @@
 <div class="bg-off-white pv4">
   <div class="ph3 mw7 center">
-    <a name="areas-of-law"></a><h2 class="f2 b center-title mb2 tc">{{.intro.heading}}</h2>
+    <a name="areas-of-law"></a><h2 class="f2 b center-title mb2 tc">Areas of Law</h2>
 
     <div class="flex flex-wrap mb3 w-100">
-      {{ range .areasoflaw }}
-      <a href="{{.link}}" class="w-third dt bg-center cover tc link h4 f3" style="background-image: url('{{.image}}')">
-        <h3 class="white w-100 dtc bg-black-40 ph3 ba bw2 b--white v-mid no-underline lh-solid link">
-          {{.title}}
-        </h3>
-      </a>
+      {{ range (where .Data.Pages "Type" "area_of_law") }}
+      <div class="w-third db pa1">
+        <a href="{{ .Permalink }}" class="dt w-100 bg-center cover tc link h4 f3" style="background-image: url('{{.Params.tile}}')">
+          <h3 class="white dtc bg-black-40 ph3 v-mid no-underline lh-solid link">
+            {{.Title}}
+          </h3>
+        </a>
+      </div>
       {{ end }}
     </div>
 

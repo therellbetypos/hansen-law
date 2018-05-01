@@ -1,9 +1,7 @@
 {{ define "main" }}
 
 {{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
-
-{{ partial "3-up" . }}
-
-{{ partial "blog" . }}
-
+<div class="mw7 center ph3 pt4">
+{{ .Content }}
+</div>
 {{ end }}

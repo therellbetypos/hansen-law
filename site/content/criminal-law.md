@@ -1,4 +1,5 @@
 ---
+type: area_of_law
 title: Criminal Law
 tile: /img/criminal-law-tile.jpg
 image: /img/criminal-law-hero.jpg
